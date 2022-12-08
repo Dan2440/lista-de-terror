@@ -1,0 +1,212 @@
+
+/*
+    Overall page adjustment.
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0b0f18;
+    height: 100%;
+    margin: 0;
+}
+
+/*
+    Search bar.
+*/
+.search {
+    background-color: #181b21;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+    color: white;
+    height: 30px;
+    left: calc(50% - 70px);
+    padding-left: 15px;
+    position: fixed;
+    text-decoration: none;
+    top: 15px;
+    width: 185px;
+    outline: none;
+}
+
+.clearInput {
+    background-color: #181b21;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    left: calc(100% - 80px);
+    top: 15px;
+}
+
+/*
+    Search icon.
+*/
+#icon1 {
+    color: white;
+    font-size: 22px;
+    left: calc(100% - 40px);
+    position: fixed;
+    top: 20px;
+}
+
+/*
+    Page title.
+*/
+.title {
+    left: 20px;
+    position: fixed;
+    top: 10px;
+}
+h2 {
+    background-color: #0f131b;
+    color: white;
+    font-size: 30px;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+/*
+    Title of each card.
+*/
+.h {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/*
+    Reset all link styles.
+*/
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*
+    Merge all the cards.
+*/
+.contain {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*
+    First card.
+*/
+#first {
+    margin-top: 90px;
+}
+
+/*
+    All cards.
+*/
+.list {
+    align-items: center;
+    background-color: #6d6d6d69;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px 0 black;
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    margin-top: 50px;
+    transition: 0.5s;
+    width: 350px;
+}
+.list:hover {
+    transform: translateY(-15px);
+}
+
+/*
+    All images.
+*/
+#imagem1 {
+    background-image: url('/img/tumblr1.jpg');
+}
+#imagem2 {
+    background-image: url('/img/tumblr2.webp');
+}
+#imagem3 {
+    background-image: url('/img/tumblr3.jpg');
+}
+#imagem4 {
+    background-image: url('/img/tumblr4.webp');
+}
+#imagem5 {
+    background-image: url('/img/tumblr5.webp');
+}
+#imagem6 {
+    background-image: url('/img/tumblr6.webp');
+}
+
+#imagem7 {
+    background-image: url('/img/tumblr7.webp');
+}
+.img {
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+}
+
+/*
+    Synopsis
+*/
+p {
+    color: white;
+    font-family: Arial;
+    margin: 20px;
+    text-align: justify;
+}
+
+/*
+    All buttons.
+*/
+.btn {
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+    width: 90px;
+}
+
+/*
+    Easter Egg.
+*/
+.easterEgg {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+}
+
+.notClick {
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 90px;
+}
+
+.jumpScare {
+    background-image: url('/img/jumpScare.gif');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
