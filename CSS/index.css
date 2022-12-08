@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'HM';
+    src: url('/fonts/HelpMe.ttf') format('truetype');
+}
 
 /*
     Overall page adjustment.
@@ -22,12 +26,12 @@ body {
     border: none;
     color: white;
     height: 30px;
-    left: calc(50% - 70px);
+    left: calc(50% - 40px);
     padding-left: 15px;
     position: fixed;
     text-decoration: none;
     top: 15px;
-    width: 185px;
+    width: 160px;
     outline: none;
 }
 
@@ -37,8 +41,9 @@ body {
     border-bottom-right-radius: 30px;
     align-items: center;
     justify-content: center;
+    text-align: center;
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
     width: 30px;
     height: 30px;
     position: fixed;
@@ -67,14 +72,16 @@ body {
     Page title.
 */
 .title {
-    left: 20px;
+    left: 18px;
     position: fixed;
-    top: 10px;
+    top: 16px;
+    letter-spacing: 6px;
+    font-family: HM;
 }
 h2 {
     background-color: #0f131b;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     height: 60px;
     position: fixed;
     width: 100%;
