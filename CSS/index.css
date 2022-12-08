@@ -51,10 +51,16 @@ body {
 */
 #icon1 {
     color: white;
-    font-size: 22px;
+    height: 40px;
+    width: 40px;
     left: calc(100% - 40px);
     position: fixed;
-    top: 20px;
+    top: 10px;
+    background-image: url('/img/icon.png');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    opacity: 0.6;
 }
 
 /*
