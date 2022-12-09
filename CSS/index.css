@@ -12,7 +12,6 @@
 }
 body {
     background-color: #0b0f18;
-    height: 100%;
     margin: 0;
 }
 
@@ -68,9 +67,48 @@ body {
     opacity: 0.6;
 }
 
-/*
-    Page title.
-*/
+.full {
+    display: flex;
+    list-style: none;
+    overflow-x: scroll;
+    align-items: center;
+    width: 400px;
+    margin: 90px 0 auto;
+}
+
+.seta {
+    position: absolute;
+    z-index: 4;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    font-family: HM;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: calc(50% + 100px);
+    top: 50%;
+    box-shadow: 7px 7px 12px 0 black;
+    opacity: 0.7;
+    transition: 1s;
+    animation: anim 1s linear alternate infinite;
+}
+
+@keyframes anim {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
 .title {
     left: 18px;
     position: fixed;
@@ -78,6 +116,7 @@ body {
     letter-spacing: 6px;
     font-family: HM;
 }
+
 h2 {
     background-color: #0f131b;
     color: white;

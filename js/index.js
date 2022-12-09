@@ -61,6 +61,10 @@ $(document).ready(function() {
         $('.jumpScare').hide()
     }, 8000)
     
+    $('.full').scroll(function() {
+        $('.seta').css('display', 'none')
+    });
+    
     // Events to call functions.
     $('#icon1').on('click', showSearch)
     $(".notClick").on('click', init)
