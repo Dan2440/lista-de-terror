@@ -1,0 +1,34 @@
+/*
+    ASSETS IMPORTER.
+*/
+
+.img {
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+}
+
+#imagem1 {
+    background-image: url('/img/tumblr1.jpg');
+}
+#imagem2 {
+    background-image: url('/img/tumblr2.webp');
+}
+#imagem3 {
+    background-image: url('/img/tumblr3.jpg');
+}
+#imagem4 {
+    background-image: url('/img/tumblr4.webp');
+}
+#imagem5 {
+    background-image: url('/img/tumblr5.webp');
+}
+#imagem6 {
+    background-image: url('/img/tumblr6.webp');
+}
+#imagem7 {
+    background-image: url('/img/tumblr7.webp');
+}

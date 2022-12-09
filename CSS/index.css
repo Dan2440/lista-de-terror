@@ -85,6 +85,7 @@ h2 {
     height: 60px;
     position: fixed;
     width: 100%;
+    z-index: 5;
 }
 
 /*
@@ -115,64 +116,23 @@ a {
     width: 100%;
 }
 
-/*
-    First card.
-*/
-#first {
-    margin-top: 90px;
-}
-
-/*
-    All cards.
-*/
-.list {
-    align-items: center;
-    background-color: #6d6d6d69;
-    border-radius: 30px;
-    box-shadow: 0 10px 10px 0 black;
-    display: flex;
-    flex-direction: column;
-    height: 470px;
-    margin-top: 50px;
-    transition: 0.5s;
+.contain_btns {
     width: 350px;
-}
-.list:hover {
-    transform: translateY(-15px);
-}
-
-/*
-    All images.
-*/
-#imagem1 {
-    background-image: url('/img/tumblr1.jpg');
-}
-#imagem2 {
-    background-image: url('/img/tumblr2.webp');
-}
-#imagem3 {
-    background-image: url('/img/tumblr3.jpg');
-}
-#imagem4 {
-    background-image: url('/img/tumblr4.webp');
-}
-#imagem5 {
-    background-image: url('/img/tumblr5.webp');
-}
-#imagem6 {
-    background-image: url('/img/tumblr6.webp');
+    height: 150px;
+    display: block;
 }
 
-#imagem7 {
-    background-image: url('/img/tumblr7.webp');
+.labelBox {
+    color: white;
+    display: inline-block;
+    font-family: Monospace;
 }
-.img {
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    border-radius: 10px;
-    height: 200px;
-    width: 350px;
+
+.element1 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
 }
 
 /*
@@ -181,45 +141,6 @@ a {
 p {
     color: white;
     font-family: Arial;
-    margin: 20px;
+    margin: 10px;
     text-align: justify;
-}
-
-/*
-    All buttons.
-*/
-.btn {
-    border-radius: 30px;
-    border: none;
-    height: 40px;
-    width: 90px;
-}
-
-/*
-    Easter Egg.
-*/
-.easterEgg {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 200px;
-    width: 400px;
-}
-
-.notClick {
-    border: none;
-    border-radius: 30px;
-    height: 40px;
-    width: 90px;
-}
-
-.jumpScare {
-    background-image: url('/img/jumpScare.gif');
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    position: fixed;
-    height: 100%;
-    width: 100%;
 }

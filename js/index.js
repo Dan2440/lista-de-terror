@@ -1,6 +1,23 @@
 
+
 // Init code of jquery.
 $(document).ready(function() {
+    
+    var box = document.getElementsByClassName('switch').length
+    //var box = document.querySelector('.switch')
+    $('.switch').click(function() {
+        for (let i = 1; i <= box; i++) {
+            var checkbox = document.getElementById(String(i));
+            localStorage.setItem("jogo" + String(i), checkbox.checked);
+        }    
+    })
+    //for loading
+    for (let i = 1; i <= box; i++) {
+        if (localStorage.length > 0) {
+            var checked = JSON.parse(localStorage.getItem("jogo" + String(i)));
+            document.getElementById(String(i)).checked = checked;
+        }
+    }
     
     // Play song.
     audioPlay = new Audio('/audio/jumpScare.mp3')
@@ -42,7 +59,6 @@ $(document).ready(function() {
     // Time of standby to easter egg.
     setTimeout(function() {
         $('.jumpScare').hide()
-        audioPlay.mute()
     }, 8000)
     
     // Events to call functions.

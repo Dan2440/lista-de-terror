@@ -1,0 +1,13 @@
+/*
+    BUTTON DEFAULT COMPONENT
+*/
+
+.btn {
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+    width: 90px;
+    display: block;
+    margin-left: calc(50% - 45px);
+    position: relative;
+}
